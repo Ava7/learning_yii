@@ -15,3 +15,10 @@ CREATE TABLE `user`(
     `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
     `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00'
 ) Engine=InnoDB;
+
+--
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`id`, `username`, `password`, `created_at`, `updated_at`) VALUES
+(1, 'demo', '$1$u8/.fJ3.$3ScomuVjlaaQ1pPqxe7Ar0', '2014-08-29 13:35:35', '0000-00-00 00:00:00');
