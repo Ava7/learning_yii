@@ -8,4 +8,5 @@
 ### Usage
 
 - DB tables can be found inside /protected
-- username and password are both "demo"
+- Username and password are both "demo"
+- And don't forget to download the framework and set its path in the configuration file :)
